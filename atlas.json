@@ -1,0 +1,27 @@
+{
+    "name": "project",
+    "title": "Project - Description",
+    "files": [
+        "book/cover.asc",
+        "book/toc.asc",
+        "book/01-introduction/1-introduction.asc"
+    ],
+    "formats": {
+        "pdf": {
+            "version": "web",
+            "index": true,
+            "toc": true,
+            "syntaxhighlighting": true,
+            "show_comments": false
+        },
+        "html": {
+            "index": true,
+            "toc": true,
+            "syntaxhighlighting": true,
+            "show_commnets": false,
+            "consolidate": false,
+            "consolidated": false
+        }
+    },
+    "theme": "oreillymedia/atlas_tech1c_theme"
+}
